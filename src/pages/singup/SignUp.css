@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1140px;
+}
+
+.signup-container{
+    display:flex ;
+    flex-direction: column;
+    padding: 15% 55%;
+}
+
+.signup-title{
+    font-size: 36px;
+    width: 100px;
+
+}
+
+.input-text{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 14px;
+    color: #52575C;
+}
+
+input {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    padding-top:10px;
+    width: 200px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:  3px solid #000;
+
+}
+.signup-bottom{
+    padding: 15px 40px;
+    margin-top: 50px;
+    width: 200px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    border-radius: 36px;
+    font-size: 16px;
+}

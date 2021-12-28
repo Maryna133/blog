@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header-container{
+    max-width: 1440px;
+    margin: 20px 70px;
+    display: flex;
+    flex-direction: row;
+}
+.header-logo{
+    padding-left: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+.header-list{
+    padding-left: 200px;    
+    display: flex;
+    flex-direction: row;
+}
+
+.header-list__item{
+    padding-right:100px;
+    list-style: none;
+}
+
+a{
+    width: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
